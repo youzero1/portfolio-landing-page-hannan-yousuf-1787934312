@@ -1,5 +1,5 @@
 ---
-status: pending
+status: implemented
 title: Playful Developer Portfolio Landing Page
 ---
 

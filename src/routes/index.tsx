@@ -1,4 +1,10 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { Hero } from '@/components/sections/Hero';
+import { About } from '@/components/sections/About';
+import { Skills } from '@/components/sections/Skills';
+import { Projects } from '@/components/sections/Projects';
+import { Experience } from '@/components/sections/Experience';
+import { Testimonials } from '@/components/sections/Testimonials';
 
 export const Route = createFileRoute('/')({
   component: HomePage,
@@ -6,8 +12,13 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#FDF6EC]">
-      <p className="text-2xl font-semibold text-[#1C1A29]">Portfolio landing page</p>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Testimonials />
+    </>
   );
 }
