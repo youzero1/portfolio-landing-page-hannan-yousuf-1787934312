@@ -7,15 +7,15 @@ import type {
 } from '@/types/portfolio';
 
 export const profile = {
-  name: 'Alex Rivera',
-  initials: 'AR',
+  name: 'Hannan Yousuf',
+  initials: 'HY',
   role: 'Software Developer',
   roles: ['Full-stack developer', 'Interface tinkerer', 'Performance nerd', 'Design-minded coder'],
   tagline: 'I build fast, friendly products for the web.',
   pitch:
     'Six years turning fuzzy ideas into shipped software — mostly TypeScript, always with a soft spot for delightful details.',
   location: 'Lisbon, Portugal',
-  email: 'hello@alexrivera.dev',
+  email: 'hello@hannanyousuf.dev',
   availability: 'Open to freelance work',
 };
 
@@ -170,7 +170,7 @@ export const experience: ExperienceEntry[] = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      'Alex has the rare ability to make a complicated product feel obvious. Half our roadmap got simpler after they joined.',
+      'Hannan has the rare ability to make a complicated product feel obvious. Half our roadmap got simpler after they joined.',
     name: 'Priya Raman',
     role: 'Product Lead, Northwind Labs',
     accent: 'mango',
